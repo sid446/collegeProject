@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+College Project
+Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React application designed to manage and display faculty and student information. It includes several components that together provide functionality for login, navigation, and displaying content.
+Component Breakdown
+1. Nav Component
 
-## Available Scripts
+    Purpose: Provides navigation links or a navigation bar for easy access to different sections of the application.
+    Location: Typically located at the top of the application.
+    Features: Includes links to navigate between the Home, Login, and Faculty Login pages.
 
-In the project directory, you can run:
+2. Home Component
 
-### `npm start`
+    Purpose: Displays the main landing page of the application.
+    Features: Contains a video carousel for showcasing featured content or videos.
+    Data Source: Uses local data or content fetched from an API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. News Component
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Purpose: Displays news updates or announcements on the Home page.
+    Data Source: Fetches data from local data files or a backend API.
+    Features: Presents news items in a structured format.
 
-### `npm test`
+4. Login Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Purpose: Default login page for students.
+    Features:
+        Allows students to log in using their email and password.
+        Provides form validation and error handling.
+        Redirects to the main application after successful login.
 
-### `npm run build`
+5. Flogin Component
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Purpose: Login page specifically for faculty members.
+    Features:
+        Contains fields for faculty login with email and password.
+        Includes a button to toggle password visibility.
+        Provides a link to switch to the student login page.
+    Styling: Uses custom styles for layout and background images.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Post-Login Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After logging in, the application presents two main components:
+6.1 Infor Component
 
-### `npm run eject`
+    Purpose: Serves as a side navigation bar or additional navigation features.
+    Features:
+        Provides links or options to navigate to different sections of the application.
+        Includes links to the FacultyInfo and Studing components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6.2 Student Profile Component
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Purpose: Displays detailed student information.
+    Contains Two Subcomponents:
+        FacultyInfo Component:
+            Purpose: Displays information related to faculty members.
+            Features: Shows faculty details and relevant information.
+        Studing Component:
+            Purpose: Displays student-related information.
+            Features: Presents details about students and their academic progress.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+            
+    HOW TO RUN:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Install Dependencies: Run npm install or yarn install to install the required dependencies.
+    Start the Development Server: Run npm start or yarn start to start the development server.
+    Open the Application: Navigate to http://localhost:3000 in your web browser.
