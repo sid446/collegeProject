@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //student profile information page this is connect to
 
 function Studing() {
   // Example student information

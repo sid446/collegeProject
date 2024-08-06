@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react';//faculty login
 import { Link } from 'react-router-dom';
 import { back, google, apple, jaype, background } from '../utils';
 

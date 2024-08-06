@@ -1,5 +1,5 @@
-import { color } from 'framer-motion';
-import React from 'react';
+
+import React from 'react'; //falcuty info
 
 // Sample profile data
 const profiles = [
